@@ -1,12 +1,12 @@
 [package]
 name = "node-runtime"
 version = "2.0.1"
-authors = ["Parity Technologies <admin@parity.io>"]
+authors = ["Metaverse Foundation <info@mvs.org>"]
 edition = "2018"
 build = "build.rs"
 license = "Apache-2.0"
-homepage = "https://substrate.dev"
-repository = "https://github.com/paritytech/substrate/"
+homepage = "https://mvs.org"
+repository = "https://github.com/mvs-org/substrate/"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]

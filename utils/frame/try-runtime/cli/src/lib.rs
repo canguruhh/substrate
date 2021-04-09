@@ -86,7 +86,7 @@ pub enum State {
 		modules: Option<Vec<String>>,
 
 		/// The url to connect to.
-		#[structopt(default_value = "http://localhost:9933", parse(try_from_str = parse_url))]
+		#[structopt(default_value = "http://localhost:8830", parse(try_from_str = parse_url))]
 		url: String,
 	},
 }

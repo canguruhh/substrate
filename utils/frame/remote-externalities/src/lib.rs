@@ -120,7 +120,7 @@ use sp_runtime::traits::Block as BlockT;
 type KeyPair = (StorageKey, StorageData);
 
 const LOG_TARGET: &str = "remote-ext";
-const TARGET: &str = "http://localhost:9933";
+const TARGET: &str = "http://localhost:8830";
 
 jsonrpsee_proc_macros::rpc_client_api! {
 	RpcApi<B: BlockT> {

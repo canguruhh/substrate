@@ -53,30 +53,30 @@ const RECOMMENDED_OPEN_FILE_DESCRIPTOR_LIMIT: u64 = 10_000;
 pub trait DefaultConfigurationValues {
 	/// The port Substrate should listen on for p2p connections.
 	///
-	/// By default this is `30333`.
+	/// By default this is `5252`.
 	fn p2p_listen_port() -> u16 {
-		30333
+		5252
 	}
 
 	/// The port Substrate should listen on for websocket connections.
 	///
-	/// By default this is `9944`.
+	/// By default this is `8831`.
 	fn rpc_ws_listen_port() -> u16 {
-		9944
+		8831
 	}
 
 	/// The port Substrate should listen on for http connections.
 	///
-	/// By default this is `9933`.
+	/// By default this is `8830`.
 	fn rpc_http_listen_port() -> u16 {
-		9933
+		8830
 	}
 
 	/// The port Substrate should listen on for prometheus connections.
 	///
-	/// By default this is `9615`.
+	/// By default this is `8630`.
 	fn prometheus_listen_port() -> u16 {
-		9615
+		8630
 	}
 }
 

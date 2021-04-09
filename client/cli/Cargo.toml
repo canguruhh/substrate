@@ -1,12 +1,12 @@
 [package]
 name = "sc-cli"
-version = "0.9.0"
-authors = ["Parity Technologies <admin@parity.io>"]
+version = "0.11.1"
+authors = ["Metaverse Foundation <info@mvs.org>"]
 description = "Substrate CLI interface."
 edition = "2018"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage = "https://substrate.dev"
-repository = "https://github.com/paritytech/substrate/"
+homepage = "https://mvs.org"
+repository = "https://github.com/mvs-org/substrate/"
 readme = "README.md"
 
 [package.metadata.docs.rs]
